@@ -1,0 +1,132 @@
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Immersive Form</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(120deg, #89f7fe, #66a6ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+form {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  width: 350px;
+  transition: transform 0.3s ease;
+}
+
+form:hover {
+  transform: scale(1.02);
+  background-color: #0056b3;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 8px;
+  border: 5px solid gray;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+/* Focus effect */
+input:focus, select:focus, textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 6px #007bff;
+  background-color:aquamarine;
+}
+
+/* Hover effect */
+input:hover, select:hover, textarea:hover {
+  border-color:red;
+  background-color: bisque;
+ 
+}
+
+/* Submit button */
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover, button:focus {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+</style>
+</head>
+<body>
+
+<form>
+  <h2>Registration Form</h2>
+
+  <!-- 1 -->
+  <label>First Name</label>
+  <input type="text" placeholder="Enter first name">
+
+  <!-- 2 -->
+  <label>Last Name</label>
+  <input type="text" placeholder="Enter last name">
+
+  <!-- 3 -->
+  <label>Email</label>
+  <input type="email" placeholder="Enter email">
+
+  <!-- 4 -->
+  <label>Password</label>
+  <input type="password" placeholder="Enter password">
+
+  <!-- 5 -->
+  <label>Confirm Password</label>
+  <input type="password" placeholder="Confirm password">
+
+  <!-- 6 -->
+  <label>Phone Number</label>
+  <input type="tel" placeholder="Enter phone number">
+
+
+  <!-- 9 -->
+  <label>Country</label>
+  <input type="text" placeholder="Enter country">
+
+  <!-- 10 -->
+  <label>State</label>
+  <input type="text" placeholder="Enter state">
+
+
+
+  <!-- 20 -->
+  <button type="submit">Submit Form</button>
+
+</form>
+
+</body>
+</html>
+
