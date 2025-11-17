@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+</head>
+<style>
+    body{
+        background-color: black;
+    }
+   
+    .container{
+        width: 100px;
+        height: 100px;
+        background-color: darkred;
+        animation-name: myanimation 3s linear infinite;
+        animation-duration: 3s;
+        position:relative;
+        border-radius: 50%;
+    }
+    @keyframes myanimation {
+       0%{transform:translate(70px 0px);}
+        30%{transform:translate0(170px 80px);}
+             60%{transform:translate(120px 75px);}
+                100%{transform:translate(85px 0px);}
+        
+    }
+</style>
+<body>
+    <!-- bootstrap
+    for style with http server
+
+    cdn -->
+    <div class="box">
+    <div class="container"></div>
+        
+    </div>
+</body>
+</html>
