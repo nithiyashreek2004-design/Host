@@ -26,3 +26,6 @@
 //  seven primitive -7 non primitive=1
 
 
+// let a=10;
+// let b=20;
+// console.log(a+b);
