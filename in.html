@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <style>
+    body {
+      scroll-behavior: smooth;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085')
+        center/cover;
+      height: 100vh;
+      color: white;
+    }
+    header .overlay {
+      background: rgba(0, 0, 0, 0.6);
+      height: 100%;
+      padding-top: 150px;
+    }
+    .dark-mode {
+      background-color: #222 !important;
+      color: #f1f1f1 !important;
+    }
+    .service-box {
+      padding: 30px;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+    .service-box:hover {
+      transform: translateY(-10px);
+      background: #f8f9fa;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    .testimonial-box {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">MyPortfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonial">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" href="#cv">Resume</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item">
+            <button class="btn btn-warning ms-2" id="toggleDark">Dark Mode</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header>
+    <div class="overlay text-center">
+      <h1 class="display-3 fw-bold">Hi, I'm Shree Nithiya</h1>
+      <p class="lead">Web Developer • Designer • Coder</p>
+      <a href="#projects" class="btn btn-primary btn-lg mt-3">View My Work</a>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about" class="py-5">
+    <div class="container text-center">
+      <h2 class="mb-4">About Me</h2>
+      <p class="lead">
+        I am a passionate web developer who builds responsive, modern, and user-friendly websites.
+        I focus on clean UI/UX, performance, and smooth interactions.
+      </p>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">My Services</h2>
+
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="service-box shadow text-center">
+            <h4>Web Development</h4>
+            <p>I build responsive, clean, and fast-loading websites using modern HTML, CSS, JS, and frameworks.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="service-box shadow text-center">
+            <h4>UI/UX Design</h4>
+            <p>Beautiful, user-friendly layouts with attention to spacing, color, typography & flow.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="service-box shadow text-center">
+            <h4>Frontend Projects</h4>
+            <p>I create portfolio sites, dashboards, landing pages, and interactive apps.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- SKILLS -->
+  <section id="skills" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Skills</h2>
+      <div class="row text-center">
+        <div class="col-md-3"><h5>HTML</h5><p>Advanced</p></div>
+        <div class="col-md-3"><h5>CSS</h5><p>Advanced</p></div>
+        <div class="col-md-3"><h5>Bootstrap</h5><p>Intermediate</p></div>
+        <div class="col-md-3"><h5>JavaScript</h5><p>Intermediate</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Projects</h2>
+
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card shadow">
+            <img src="https://images.unsplash.com/photo-1551033406-611cf9a28f67" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">E-commerce UI</h5>
+              <p class="card-text">A clean and modern shopping UI built with Bootstrap.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card shadow">
+            <img src="https://images.unsplash.com/photo-1517430816045-df4b7de11d1d" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Portfolio Website</h5>
+              <p class="card-text">My personal portfolio showcasing skills and projects.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card shadow">
+            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">JavaScript Apps</h5>
+              <p class="card-text">Mini apps like calculator, todo app, weather app, etc.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonial" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Testimonials</h2>
+
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="testimonial-box">
+            <p>"Very professional work! The website was clean and responsive. Loved the UI!"</p>
+            <h6 class="text-end">— Asha</h6>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="testimonial-box">
+            <p>"Delivered on time with great design sense. Highly recommended!"</p>
+            <h6 class="text-end">— Kiran</h6>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="testimonial-box">
+            <p>"Amazing creativity! The portfolio she made for me was fantastic."</p>
+            <h6 class="text-end">— Harini</h6>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CV DOWNLOAD SECTION -->
+  <section id="cv" class="py-5 bg-light text-center">
+    <div class="container">
+      <h2 class="mb-4">Download My Resume</h2>
+      <p class="lead mb-3">Get the latest copy of my professional resume</p>
+      <a href="resume.pdf" download class="btn btn-primary btn-lg">Download CV</a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Me</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+
+          <form id="contactForm">
+            <div class="mb-3">
+              <label class="form-label">Your Name</label>
+              <input type="text" id="name" class="form-control" required />
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Your Email</label>
+              <input type="email" id="email" class="form-control" required />
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Message</label>
+              <textarea id="message" class="form-control" rows="4" required></textarea>
+            </div>
+
+            <button class="btn btn-primary w-100">Submit</button>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="m-0">&copy; 2025 My Portfolio | Designed by Nithiya</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- JS -->
+  <script>
+    // Dark Mode
+    document.getElementById("toggleDark").onclick = () => {
+      document.body.classList.toggle("dark-mode");
+    };
+
+    // Form Validation
+    document.getElementById("contactForm").addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      let name = document.getElementById("name").value.trim();
+      let email = document.getElementById("email").value.trim();
+      let msg = document.getElementById("message").value.trim();
+
+      if (name === "" || email === "" || msg === "") {
+        alert("All fields are required!");
+        return;
+      }
+
+      alert("Message submitted successfully!");
+      this.reset();
+    });
+  </script>
+
+</body>
+</html>
