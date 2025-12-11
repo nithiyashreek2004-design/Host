@@ -27,8 +27,10 @@
 //constructor special method to initialize onject
 //method     function define inside a class
 //inheritance mechanism to create a new class from an existing class using prototype
-//protoytpe   object from which other object inherit properties
+//protoytpe   object from which other object inherit properties 
 
+//DOM is document object model represents the web page as a tree structure where each element become a node
+//  js can change html elemnt content change css style add or remove elemnt or change handle events  
 
 
 
