@@ -31,8 +31,15 @@
 
 //DOM is document object model represents the web page as a tree structure where each element become a node
 //  js can change html elemnt content change css style add or remove elemnt or change handle events  
-
-
+//tre like object model creted by broweser that represented html ememnts as nodes
+//  js manipulate the dom wthst the user seees and to represent and respond t o user acitons ex cclick typing form typins nodes elements node
+// .text node attribute node comment node 
+// live vs snapshot method like getelementbyid (id)single element by id fast and direct
+// getelemntbyclass name(class name)live html collectionof elements with the class name (reflect change )in many elements
+//getelementbytagname=live html collectionof elements with  that tag
+// query seclector first elemrent matching css selector
+//prefer query selector /queryselectorall for css like selector and consistsncy
+//use getelementbyid  when u konw the id performance tiny benefits.
 
 
 
