@@ -13,16 +13,16 @@
 
 
 // VARIABLE DECLARATION IN JAVASCRIPT
-// let  ---- ITS BLOCK SCOPED    -----------USE WHEN VALUE WANT TO CHANGE(REASSIGN(UPDATE)/CANT BE REDECLARE)
-// const-----ITS BLOCK SCOPED  -----------USE FOR FIXED VALUE (NOT REASSIGN/CANT BE REDECLARE)
-// var -------ITS FUNCTION /GLOBAL SCOPED  -----------NOT PREFERRED VAR BUT IT ACCECPT ALL THE THINGS(CAN BE REASSIGN/ CAN BE REDECLARE)
+// let  ---- ITS BLOCK SCOPED    -----------USE WHEN VALUE WANT TO CHANGE     (REASSIGN(UPDATE)/CANT BE REDECLARE)
+// const-----ITS BLOCK SCOPED  -----------USE FOR FIXED VALUE                 (NOT REASSIGN/CANT BE REDECLARE)
+// var -------ITS FUNCTION /GLOBAL SCOPED  -----------NOT PREFERRED VAR BUT IT ACCECPT ALL THE THINGS          (CAN BE REASSIGN/ REDECLARE)
 
 // VARIABLE STORE INFORMATION TO USE LATER
 // VARIABLE NAME RULES
 // 1. CAN CONTAIN LETTERS,NUMBERS,UNDERSCORE(_),DOLLAR SIGN($)
 // 2. MUST BEGIN WITH A LETTER,UNDERSCORE(_),DOLLAR SIGN($)
 // 3. CASE SENSITIVE
-// 4. CANNOT BE A RESERVED KEYWORD (LIKE LET,VAR,CONST,IF,FOR,WHILE,FUNCTION,RETURN ETC)
+// 4. CANNOT BE A RESERVED KEYWORD (LIKE: LET,VAR,CONST,IF,FOR,WHILE,FUNCTION,RETURN ETC)
                   
                     // EXAMPLE OF VARIABLE DECLARATION
                        let firstName = "John"; // string value
@@ -179,3 +179,7 @@ a += 5; // assignment operator
 //VAR---WE CAN USE GLOBAL, FUNCTION, NOT IN BLOCK SCOPE 
 
 //-------------------------------------------------------------------------------------------------------------------------------------------
+//DOM  Manipulation
+//DOM is document object model represents the web page as a tree structure where each element become a node
+//"The Document Object Model (DOM) is a platform and language-neutral interface that allows programs and
+//  scripts to dynamically access and update the content, structure, and style of a document
