@@ -41,6 +41,8 @@
 //prefer query selector /queryselectorall for css like selector and consistsncy
 //use getelementbyid  when u konw the id performance tiny benefits.
 
+// js events listener focus on specific actions
+
 
 
 
