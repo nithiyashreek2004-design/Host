@@ -8,9 +8,7 @@
 // 5.CHANGINGING CONTENT DYNAMICALLY
 // 6.bukding full application(React,angular,vue)
 
-
 //-----------------------------------------------------------------------------------------------------------------------------------------
-
 
 // VARIABLE DECLARATION IN JAVASCRIPT
 // let  ---- ITS BLOCK SCOPED    -----------USE WHEN VALUE WANT TO CHANGE     (REASSIGN(UPDATE)/CANT BE REDECLARE)
@@ -45,9 +43,7 @@
 //  collection of information is called data 2 type primitive  and non primitive
 //  seven primitive -7 non primitive=1
 
-
 //-----------------------------------------------------------------------------------------------------------------------------------------
-
 
 //OPERATORS IN JAVASCRIPT
 // 1.ARITHMETIC OPERATORS (+,-,*,/,%,**)
@@ -67,7 +63,6 @@ a += 5; // assignment operator
 
 
 //-----------------------------------------------------------------------------------------------------------------------------------------
-
 
 //CONDITIONAL STATEMENTS IN JAVASCRIPT
 // 1.IF STATEMENT
@@ -99,9 +94,7 @@ a += 5; // assignment operator
 //         console.log("Other day");
 // }
 
-
 //-----------------------------------------------------------------------------------------------------------------------------------------
-
 
 //LOOPS IN JAVASCRIPT
 // 1.FOR LOOP
@@ -128,6 +121,7 @@ a += 5; // assignment operator
 
 
 //-----------------------------------------------------------------------------------------------------------------------------------------
+
 //FUNCTIONS IN JAVASCRIPT  ((RESUABLE BLOCK OF CODE)U WRITE THEM ONCE AND USE THEM MANY TIMES)
 
 // 1.FUNCTION DECLARATION------------STARTS WITH    (FUNCTION NAME(){})HOISTING ALLOWED (LIKE USE BEFORE DECLARATION)
@@ -155,9 +149,7 @@ a += 5; // assignment operator
 // };
 // console.log(multiply(4, 2));
 
-
 //-----------------------------------------------------------------------------------------------------------------------------------------
-
 
 //HOISTING IN JAVASCRIPT
 // JS MOVES VARIABLES AND FUNCTIONS DECLARATIONS TO THE TOP OF THEIR SCOPE BEFORE CODE EXECUTION
@@ -179,7 +171,153 @@ a += 5; // assignment operator
 //VAR---WE CAN USE GLOBAL, FUNCTION, NOT IN BLOCK SCOPE 
 
 //-------------------------------------------------------------------------------------------------------------------------------------------
+
 //DOM  Manipulation
 //DOM is document object model represents the web page as a tree structure where each element become a node
 //"The Document Object Model (DOM) is a platform and language-neutral interface that allows programs and
 //  scripts to dynamically access and update the content, structure, and style of a document
+
+//--------------------------------------------------------------------------------------------------------------------------------------------
+
+//js methods (string,array,objects,math,number,date,function,json,browser/dom,console,important global,mordern js(react-ready))
+
+// 🔥 MOST IMPORTANT (must know)
+// String → trim, split, includes
+// Array → map, filter, reduce, forEach
+// Object → keys, values, entries
+// Math → random, floor
+// JSON → stringify, parse
+
+//-----------STRING------------
+// Method	         What it does
+// length	   --    Length of string
+// toUpperCase()     Capital letters
+// toLowerCase()--   Small letters
+// trim()            Remove spaces
+// includes() --     Check text
+// slice()	         Cut string
+// replace()	--    Replace text
+// split()	         Convert to array
+
+//-----------ARRAY----------------
+// loop/process array                         |    🔹 Modify arrays
+// Method      	Use                         |        // Method	     Use
+//                                            |
+// forEach()	   Loop                        |       // push()	    Add end
+// map()	         Change each item            |      // pop()	       Remove end
+// filter()	      Remove items                |      // shift()	    Remove start
+// reduce()	      Total / sum                 |       // unshift()	 Add start
+// find()	      Find one item               |        //  splice()	 Add/remove anywhere
+// includes()	   Exists or no                |        // slice()	    Copy part
+
+//-----------OBJECT-----------------
+// Method	         Use
+// Object.keys()	   All keys
+// Object.values()	All values
+// Object.entries()	Key + value
+// hasOwnProperty()	Check property
+
+// ---------MATH METHOD-------------
+// Method	          Use
+// Math.random()	Random number
+// Math.floor()	Round down
+// Math.ceil()    Round up
+// Math.round()	Normal round
+// Math.max()	   Biggest
+// Math.min()	   Smallest
+
+//----------NUMBER-----------------
+// Method	     Use
+// Number()	      Convert to number
+// parseInt()	   Integer
+// parseFloat()	Decimal
+// toFixed()	   Decimal points
+
+//-----------DATE-----------------
+// Method	       Use
+// new Date()	    Current date
+// getFullYear()	 Year
+// getMonth()	    Month
+// getDate()	    Day
+// getTime()	   Timestamp
+
+// ---------FUNCTION-------------
+// Method	Use
+// call()	Call with context
+// apply()	Call with array
+// bind()	Fix this
+
+//---------JSON (java script object notation)--------
+// Method	           Use                  its an text format used to store and send dataworks with API server-browser(frontend & backend)
+// JSON.stringify()	  Object → JSON
+// JSON.parse()	     JSON → Object
+
+//--------browser/Dom------------
+// Method	               Use
+// getElementById()	    Select element
+// querySelector()	     CSS select
+// addEventListener()	  Events
+// innerHTML	           Change content
+// value	Input            value
+
+//---------console------------
+// Method	        Use
+// console.log()	   Print
+// console.error()	Error
+// console.warn()	   Warning
+// console.table()	Table
+
+//--------Important global------
+// Method	         Use
+// setTimeout()	   Delay
+// setInterval()  	Repeat
+// clearInterval()	Stop
+// isNaN()	         Not number
+
+//-------MODERN JS----------
+// Feature	         Example
+// Arrow functions	() => {}
+// Destructuring  	{name} = props
+// Spread	         {...obj}
+// Rest	            (...args)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

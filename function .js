@@ -42,6 +42,11 @@
 //use getelementbyid  when u konw the id performance tiny benefits.
 
 // js events listener focus on specific actions
+// error handling
+// prevents application is crashing
+//impoves user experences 
+// helps debugging
+// required in real world application (form ,api,payment)
 
 
 
