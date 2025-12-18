@@ -51,10 +51,20 @@
 
 
 
-
-
-
-
+//asynchronous js thread 
+// js is single thread  excecution by defauld js run on main s therad
+// one this mean it can onle one executed using single call stack this design was original intented for simple web browser 
+//   allowing the singlr thread handle both ja execution ui rendering if a single th app perform along rungin cpu instensive task
+//  like acomplex calci it blocks the main thread making the web page or server and resposive untill the twask is complete
+//js allow muti therad to overcome limitation of s th mjs environment offer api that allow devop of load tak to separate parellel thread
+// web works are browerser api that alloe u to run js in a background thread
+// separarte from the main html page 
+//use case idel for perfoming heavy computation ex image processing large data caci  
+// communication works can acces dom diresctly comm bt the main theres and workes happen way mess passing, using 
+// and onmess eventhandeler 
+// isolation dat is copied via structured clone algorithem when sent bt therad
+//  ensuring no cuncurency problem with shared memory 
+//  tranferable object can be used for performanable optimization
 
 
 
