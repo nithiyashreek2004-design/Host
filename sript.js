@@ -176,7 +176,7 @@
 
 ## 9. Advanced JavaScript Concepts
 
-// ### 9.1 Closures and Scope            (Function remembers variables outside it.)
+// ### 9.1 Closures and Scope  (Function remembers variables outside it.)
 // * Inner function remembers outer data
 
 // ### 9.2 Asynchronous JavaScript
