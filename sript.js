@@ -2,23 +2,22 @@
 
 // **Remember:** HTML = structure, CSS = style, JS = action
 
-### 1.2 Role of JavaScript in Web Development
+// ### 1.2 Role of JavaScript in Web Development
 
 // * Handles **user actions** (click, type, submit)
 // * Updates content without reloading
 // * Connects frontend with backend
 
-### 1.3 Setting Up the Environment
+// ### 1.3 Setting Up the Environment
 
 // * **Browser Console** → quick testing    ((right-click → Inspect → Console))
 // * **Code Editors** → VS Code, Sublime    (console.log("JS is working");)
 
-### 1.4 JavaScript Syntax and Structure
+// ### 1.4 JavaScript Syntax and Structure
 
 // * Case-sensitive
 // * Statements end with `;`
 // * Code runs top to bottom
-
 
 ## 2. Basics of JavaScript
 
@@ -84,7 +83,6 @@
 // * Function that runs immediately
 // * Avoids global scope pollution
 
-
 ## 4. JavaScript Objects
 
 // ### 4.1 Introduction to Objects
@@ -126,7 +124,6 @@
 // ### 5.4 Multidimensional Arrays  (let matrix = [[1,2],[3,4]];)
 // * Array inside another array
 
-
 ## 6. DOM Manipulation
 
 // ### 6.1 What is the DOM?
@@ -145,7 +142,6 @@
 // ### 6.5 Event Handling                 (btn.addEventListener("click", fn);)
 // * `addEventListener`
 // * Inline events (not recommended)
-
 
 ## 7. JavaScript Events
 
@@ -173,7 +169,6 @@
 // ### 8.3 Custom Errors
 // * Create your own error messages
 
-
 ## 9. Advanced JavaScript Concepts
 
 // ### 9.1 Closures and Scope  (Function remembers variables outside it.)
@@ -192,11 +187,10 @@
 // * Clean and readable async code
 
 // ### 9.3 ES6+ Features
-// * Template literals → `${}`        (let name = "Ram";console.log(`Hello ${name}`);)
-// * Destructuring                    (let user = {age:20};let {age} = user;)
-// * Default parameters               (function greet(name="User"){ }) 
+// * Template literals → `${}`  (let name = "Ram";console.log(`Hello ${name}`);)
+// * Destructuring              (let user = {age:20};let {age} = user;)
+// * Default parameters         (function greet(name="User"){ }) 
 // * Spread & Rest operators
-
 
 ## 10. JavaScript APIs
 
@@ -215,7 +209,6 @@
 // ### 10.5 JSON
 // * Data format for APIs
 
-
 ## 11. Debugging and Best Practices
 
 // ### 11.1 Debugging in Browser
@@ -230,8 +223,6 @@
 // ### 11.4 Avoid Common Mistakes
 // * Avoid global variables
 
-// ---
-
 ## 12. Frameworks and Libraries
 
 // ### 12.1 What are They?
@@ -242,7 +233,6 @@
 
 // ### 12.3 Modern Frameworks
 // * React, Angular, Vue
-
 
 ## 13. Project
 
