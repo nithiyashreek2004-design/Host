@@ -7,6 +7,13 @@
 
 
 
+// difference bt react and normal js
+ //JS:
+   // we select elements directly from the DOM using methods like document.getElementById or document
+   // and manually update dom elements when data changes.
+
+    //React:    
+    // we create components & updates state 
 
 
 
