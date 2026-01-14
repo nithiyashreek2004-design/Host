@@ -17,6 +17,13 @@
 
 
 
+    //components\nesting components
+//react apps are made out of components components is a piece of the UI its own logic and appearance
+//component can be small button or large an entire page
+
+
+
+
 
 
 
